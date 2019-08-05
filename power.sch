@@ -1,0 +1,115 @@
+EESchema Schematic File Version 4
+LIBS:t430-teensypp-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:MCP1700-3302E_SOT23 U2
+U 1 1 5D492376
+P 5300 2350
+F 0 "U2" H 5300 2592 50  0000 C CNN
+F 1 "MCP1700-3302E_SOT23" H 5300 2501 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 2575 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 5300 2350 50  0001 C CNN
+	1    5300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5D492895
+P 4650 2550
+F 0 "C9" H 4742 2596 50  0000 L CNN
+F 1 "1u" H 4742 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4650 2550 50  0001 C CNN
+F 3 "~" H 4650 2550 50  0001 C CNN
+	1    4650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5D49310C
+P 5950 2550
+F 0 "C10" H 6042 2596 50  0000 L CNN
+F 1 "1u" H 6042 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5950 2550 50  0001 C CNN
+F 3 "~" H 5950 2550 50  0001 C CNN
+	1    5950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5D493802
+P 4650 2650
+F 0 "#PWR0126" H 4650 2400 50  0001 C CNN
+F 1 "GND" H 4655 2477 50  0000 C CNN
+F 2 "" H 4650 2650 50  0001 C CNN
+F 3 "" H 4650 2650 50  0001 C CNN
+	1    4650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 5D4938B9
+P 5950 2650
+F 0 "#PWR0127" H 5950 2400 50  0001 C CNN
+F 1 "GND" H 5955 2477 50  0000 C CNN
+F 2 "" H 5950 2650 50  0001 C CNN
+F 3 "" H 5950 2650 50  0001 C CNN
+	1    5950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0128
+U 1 1 5D493B90
+P 5300 2650
+F 0 "#PWR0128" H 5300 2400 50  0001 C CNN
+F 1 "GND" H 5305 2477 50  0000 C CNN
+F 2 "" H 5300 2650 50  0001 C CNN
+F 3 "" H 5300 2650 50  0001 C CNN
+	1    5300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2450 4650 2350
+Wire Wire Line
+	5950 2350 5950 2450
+$Comp
+L power:+5V #PWR0129
+U 1 1 5D4940F1
+P 4650 2350
+F 0 "#PWR0129" H 4650 2200 50  0001 C CNN
+F 1 "+5V" H 4665 2523 50  0000 C CNN
+F 2 "" H 4650 2350 50  0001 C CNN
+F 3 "" H 4650 2350 50  0001 C CNN
+	1    4650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0130
+U 1 1 5D494703
+P 5950 2350
+F 0 "#PWR0130" H 5950 2200 50  0001 C CNN
+F 1 "+3.3V" H 5965 2523 50  0000 C CNN
+F 2 "" H 5950 2350 50  0001 C CNN
+F 3 "" H 5950 2350 50  0001 C CNN
+	1    5950 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4650 2350
+Wire Wire Line
+	4650 2350 5000 2350
+Connection ~ 5950 2350
+Wire Wire Line
+	5600 2350 5950 2350
+$EndSCHEMATC
