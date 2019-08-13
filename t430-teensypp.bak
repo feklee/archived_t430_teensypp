@@ -98,4 +98,70 @@ U 5D491B51
 F0 "power" 50
 F1 "power.sch" 50
 $EndSheet
+Wire Wire Line
+	4400 1700 4600 1700
+Wire Wire Line
+	4600 1800 4400 1800
+Wire Wire Line
+	4400 1900 4600 1900
+Wire Wire Line
+	4600 2000 4400 2000
+Wire Wire Line
+	4400 2100 4600 2100
+Wire Wire Line
+	4600 2200 4400 2200
+Wire Wire Line
+	4400 2300 4600 2300
+Wire Wire Line
+	4600 2400 4400 2400
+Wire Wire Line
+	4400 2500 4600 2500
+Wire Wire Line
+	4600 2600 4400 2600
+Wire Wire Line
+	4400 2700 4600 2700
+Wire Wire Line
+	4600 2800 4400 2800
+Wire Wire Line
+	4400 2900 4600 2900
+Wire Wire Line
+	4600 3000 4400 3000
+Wire Wire Line
+	4400 3100 4600 3100
+Wire Wire Line
+	4600 3200 4400 3200
+Wire Wire Line
+	4400 5350 4600 5350
+Wire Wire Line
+	4400 3400 4600 3400
+Wire Wire Line
+	4600 3500 4400 3500
+Wire Wire Line
+	4400 3600 4600 3600
+Wire Wire Line
+	4600 3700 4400 3700
+Wire Wire Line
+	4400 3800 4600 3800
+Wire Wire Line
+	4600 3900 4400 3900
+Wire Wire Line
+	4400 4000 4600 4000
+Wire Wire Line
+	4600 4100 4400 4100
+Wire Wire Line
+	4400 5000 4600 5000
+Wire Wire Line
+	4600 5100 4400 5100
+Wire Wire Line
+	4400 5250 4600 5250
+Wire Wire Line
+	4600 4800 4400 4800
+Wire Wire Line
+	4400 4700 4600 4700
+Wire Wire Line
+	4600 4600 4400 4600
+Wire Wire Line
+	4400 4400 4600 4400
+Wire Wire Line
+	4600 4300 4400 4300
 $EndSCHEMATC
