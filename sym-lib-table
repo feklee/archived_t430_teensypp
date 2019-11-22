@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name thinkpad_kbd_connectors)(type Legacy)(uri ${KIPRJMOD}/thinkpad_kbd_connectors.lib)(options "")(descr ""))
   (lib (name teensy)(type Legacy)(uri ${KIPRJMOD}/teensy.lib)(options "")(descr ""))
+  (lib (name t430-teensypp-rescue)(type Legacy)(uri ${KIPRJMOD}/t430-teensypp-rescue.lib)(options "")(descr ""))
 )
