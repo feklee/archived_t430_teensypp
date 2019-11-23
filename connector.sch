@@ -824,4 +824,22 @@ Wire Notes Line
 	8450 3750 6900 3750
 Wire Notes Line
 	6900 3750 6900 4250
+Text Notes 3450 2250 0    50   ~ 0
+Next rev: wire to controller
+Wire Notes Line
+	5800 900  5800 1850
+Wire Notes Line
+	5800 1850 7200 1850
+Wire Notes Line
+	7200 1850 7200 900 
+Wire Notes Line
+	7200 900  5800 900 
+Wire Notes Line
+	3000 2100 4550 2100
+Wire Notes Line
+	4550 2100 4550 2300
+Wire Notes Line
+	4550 2300 3000 2300
+Wire Notes Line
+	3000 2300 3000 2100
 $EndSCHEMATC
