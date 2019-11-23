@@ -804,4 +804,24 @@ F 3 "" H 5900 2200 50  0001 C CNN
 	1    5000 2200
 	1    0    0    -1  
 $EndComp
+Text Notes 1450 2200 0    50   ~ 0
+Do not populate
+Wire Notes Line
+	2150 2050 2150 2350
+Wire Notes Line
+	2150 2350 3400 2350
+Wire Notes Line
+	3400 2350 3400 2050
+Wire Notes Line
+	3400 2050 2150 2050
+Text Notes 8500 4000 0    50   ~ 0
+Do not populate
+Wire Notes Line
+	6900 4250 8450 4250
+Wire Notes Line
+	8450 4250 8450 3750
+Wire Notes Line
+	8450 3750 6900 3750
+Wire Notes Line
+	6900 3750 6900 4250
 $EndSCHEMATC
