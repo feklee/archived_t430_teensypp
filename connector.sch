@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:t430-teensypp-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -794,10 +793,10 @@ F 3 "" H 6900 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L thinkpad_kbd_connectors:T430 X?
+L thinkpad_kbd_connectors:T430 X1
 U 1 1 5DD7C03F
 P 5000 2200
-F 0 "X?" H 5625 2365 50  0000 C CNN
+F 0 "X1" H 5625 2365 50  0000 C CNN
 F 1 "T430" H 5625 2274 50  0000 C CNN
 F 2 "" H 5900 2200 50  0001 C CNN
 F 3 "" H 5900 2200 50  0001 C CNN
